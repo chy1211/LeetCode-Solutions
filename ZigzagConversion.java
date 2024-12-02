@@ -17,7 +17,7 @@ public class ZigzagConversion {
         // 遍歷字串
         for (char c : s.toCharArray()) {
             rows[currentRow].append(c);
-            // 判斷是否要改變方向
+            // 判斷是否要改變方向(到達邊界)
             if (currentRow == 0 || currentRow == numRows - 1) {
                 goingDown = !goingDown;
             }
