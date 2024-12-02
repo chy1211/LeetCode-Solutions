@@ -1,6 +1,6 @@
 public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
-        // 步驟1:如果
+        // 步驟0:如果輸入為空，返回空字符串
         if (s == null || s.length() == 0) {
             return "";
         }
